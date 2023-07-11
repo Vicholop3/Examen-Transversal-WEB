@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://marketplace.canva.com/EAEK4dC2olw/1/0/1600w/canva-arco%C3%ADris-gradiente-rosa-y-naranja-fondo-virtual-c3PYha1JI9M.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #f1ebeb;
+  color: #080808;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: none solid #1b1a1a;
+  background: transparent;
+  outline: none;
+  height: none;
+  color: #7f7d7d;
+  font-size: none;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #cb02f8;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #01eeff;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color:#909090;
+}
